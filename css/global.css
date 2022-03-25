@@ -1,7 +1,30 @@
+h2{
+    font-size: 3.5rem;
+}
+h3{
+    font-size: 2rem;
+}
 h3,h2{
     font-family: 'Adamina';
 }
-
 .main-header{
     text-align: center;
+}
+.desc-princ{
+    font-size: 1.3rem;
+}
+.videojuegos{
+    background-color: rgb(230, 167, 20);
+}
+.separacion-der {
+	text-align: center;
+    position: relative;
+}
+.separacion-der::before{
+  content: "";
+  text-align: center;
+  height: 100%;
+  width: 2px;
+  background-color: rgba(1, 1, 1, 0.4);
+  position: absolute;
 }

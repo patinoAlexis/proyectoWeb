@@ -4,10 +4,9 @@
 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="Pagina acerca de mis gustos">
         <meta name="author" content="Alexis Patiño">
-
         <title>Mis gustos</title>
 
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -15,14 +14,23 @@
         <link href="css/fonts.css" rel="stylesheet">
         <!-- Bootstrap Core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
-        <!-- jQuery -->
-         <!--<script src="js/jquery.min.js"></script>-->
+        <!-- Custom CSS -->
+        <link href="css/global.css" rel="stylesheet">
 
+        <!-- aos CSS-->
+        <link href="css/aos.css" rel="stylesheet">
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
+
+
+        <!-- jQuery -->
+        <!--<script src="js/jquery.min.js"></script>-->
         <!-- Bootstrap JS -->
          <script src="js/bootstrap.min.js"></script> 
-
-         <!-- Custom CSS -->
-         <link href="css/global.css" rel="stylesheet">
+        <!-- aos JS-->
+        <script src="js/aos.js"></script>
+        
+         
     </head>
     <body>
         <header class="main-header">
@@ -36,7 +44,7 @@
                  
             </div>
             <div>
-                <nav class="navbar navbar-dark bg-dark row m-0 p-0">
+                <nav class="navbar navbar-dark bg-secondary row m-0 p-0">
                     <div class="">
                         <ul class="navbar-nav flex-row py-4">
                           <li class="col-3 nav-item">
@@ -58,8 +66,46 @@
             
         </header>
         <section class="videojuegos">
-            <h3> Videojuegos</h3>
-            <p>a mi me gustan los videojuegos y es uno de mis gustos</p>
+            <div class="text-center pb-4 mb-5"  data-aos="fade-up">
+                <h2> Videojuegos</h2>
+                <p class="desc-princ">Desde peque&ntilde;o he vivido en un ambiante muy cercano a los videojuegos,
+                    ya que mis primos lo jugaban, mi hermano jugaba, y mis amigos tambien
+                    jugaban videojuegos. Es por eso que actualmente disfruto jugar mucho
+                    a los videojuegos, y entre las cosas destacadas de mis gustos de los videojuegos
+                    les tengo las siguiente informacion.
+                </p>
+            </div>
+            <div class="row m-0 p-0" data-aos="fade-down">
+                <div class="col-7 text-center" >
+                    <div class="subtitulo">
+                        <h3>Videojuego que he jugado mas tiempo:</h3>
+                        <h4>League of Legends</h4>
+                    </div>
+                    <div>
+                        <p class="text-start">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Adipisci in molestiae quae, repellat libero tempora ducimus,
+                     repudiandae atque, magnam quo quaerat corporis. Itaque voluptatum, 
+                     nihil aliquam nostrum numquam deserunt maxime.
+                    </p>
+                    </div>
+                </div>
+                <div class="col-xl-1 col-lg-0 separacion-der text-center p-0"></div>
+                <div class="col-4 text-center p-0">
+                    <div class="subtitulo">
+                        <h3>Mis generos de videojuegos favoritos</h3>
+                    </div>
+                    <div class="">
+                        <br>
+                        <p class="text-start pt-2">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Adipisci in molestiae quae, repellat libero tempora ducimus,
+                            repudiandae atque, magnam quo quaerat corporis. Itaque voluptatum, 
+                            nihil aliquam nostrum numquam deserunt maxime.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
         </section>
         <section class="futbol">
@@ -79,6 +125,11 @@
         </section>
     </body>
     <footer>
-
+        <script>
+            AOS.init({
+                duration: 1000,
+                easing: 'ease',
+            });
+        </script>
     </footer>
 </html>
