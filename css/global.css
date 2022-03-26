@@ -13,6 +13,10 @@ h3,h2{
 .desc-princ{
     font-size: 1.3rem;
 }
+
+.futbol{
+    background-color: rgb(119, 216, 9);
+}
 .videojuegos{
     background-color: rgb(230, 167, 20);
 }
@@ -27,4 +31,10 @@ h3,h2{
   width: 2px;
   background-color: rgba(1, 1, 1, 0.4);
   position: absolute;
+}
+.subtitulo{
+    padding-bottom: 30px;
+}
+.img-300{
+    height: 300px;
 }
