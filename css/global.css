@@ -9,16 +9,23 @@ h3,h2{
 }
 .main-header{
     text-align: center;
+    background-image: url("../img/wall.jpg");
+}
+.bg-purpura{
+    background-color: #c07fc3;
 }
 .desc-princ{
     font-size: 1.3rem;
 }
 
 .futbol{
-    background-color: rgb(119, 216, 9);
+    background-color: #86bc8e ;
 }
 .videojuegos{
-    background-color: rgb(230, 167, 20);
+    background-color: #706ed4;
+}
+.esports{
+    background-color: aqua;
 }
 .separacion-der {
 	text-align: center;
