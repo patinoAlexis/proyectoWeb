@@ -25,7 +25,28 @@ h3,h2{
     background-color: #706ed4;
 }
 .esports{
-    background-color: aqua;
+    background-color: #d86a96;
+}
+.programacion{
+    background-color: #7fa4c3;
+}
+.separacion-bot {
+    margin-bottom: 2.1rem;
+    position: relative;
+}
+
+.separacion-bot::before {
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 100%;
+    background-color: rgba(1, 1, 1, 0.3);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 .separacion-der {
 	text-align: center;
