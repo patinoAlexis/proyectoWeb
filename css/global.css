@@ -1,3 +1,5 @@
+/* 1- Titulos y textos*/
+
 h2{
     font-size: 3.5rem;
 }
@@ -7,6 +9,22 @@ h3{
 h3,h2{
     font-family: 'Adamina';
 }
+.subtitulo{
+    padding-bottom: 30px;
+}
+.desc-princ{
+    font-size: 1.3rem;
+}
+.titulo-prin{
+    font-size: 4.5rem;
+}
+/*******************************************/
+/*******************************************/
+
+
+/*******************************************/
+/*******************************************/
+/* 2-  Header*/
 .main-header{
     text-align: center;
     background-image: url("../img/wall.jpg");
@@ -14,9 +32,9 @@ h3,h2{
 .bg-purpura{
     background-color: #c07fc3;
 }
-.desc-princ{
-    font-size: 1.3rem;
-}
+/*******************************************/
+/*******************************************/
+/* 3= Segmentos */
 
 .futbol{
     background-color: #86bc8e ;
@@ -30,6 +48,10 @@ h3,h2{
 .programacion{
     background-color: #7fa4c3;
 }
+
+/*******************************************/
+/*******************************************/
+/* 4- Separaciones */
 .separacion-bot {
     margin-bottom: 2.1rem;
     position: relative;
@@ -60,9 +82,9 @@ h3,h2{
   background-color: rgba(1, 1, 1, 0.4);
   position: absolute;
 }
-.subtitulo{
-    padding-bottom: 30px;
-}
+/*******************************************/
+/*******************************************/
+/* 5- Imagenes*/
 .img-300{
     height: 300px;
 }
