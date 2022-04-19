@@ -1,3 +1,7 @@
+/* 0 - Iniciadores*/
+img{
+    height: 100%;
+}
 /* 1- Titulos y textos*/
 
 h2{
@@ -87,4 +91,25 @@ h3,h2{
 /* 5- Imagenes*/
 .img-300{
     height: 300px;
+}
+.owl-stage{
+    display: block !important;
+  }
+  
+  .owl-item{
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+  }
+  
+  .item{
+    text-align: center;
+  }
+.owl-perso-item{
+    
+    text-align: center;
+}
+.caption{
+    font-size: 1.2rem;
+    font-weight: bold;
 }
