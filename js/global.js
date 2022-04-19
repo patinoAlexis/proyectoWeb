@@ -74,6 +74,7 @@ $(document).ready(function (){
                         $(this).css('width','58%')
                     }
                 })
+                $('.video').css("width",400)
                 $('img').css("height", (300/1800) * size);
             }
             
