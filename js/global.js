@@ -1,4 +1,5 @@
 $(document).ready(function (){
+    //Creacion de la forma del carousel
     $('.owl-carousel').owlCarousel({
         loop:true,
         center: true,
@@ -17,17 +18,7 @@ $(document).ready(function (){
             }
         }
     })
-    function elim_agr_columna(col = ''){
-        $('sub-seg').removeClass(function (index, css) {
-            return (css.match (/\bcol-\S+/g) || []).join(' ');
-        });
-        if(col == 'col-12'){
-            $('.sub-seg').addClass(col)
-        } else {
-            $('.sub-seg').addClass()
-        }
-        
-    }
+    //Función para moverse a los diferentes segmentos a través del nav-bar
     $('.op-nav').click(function(){
         
         let scrollTo;
@@ -47,12 +38,10 @@ $(document).ready(function (){
         }
         $([document.documentElement, document.body]).animate({
             scrollTop: $(scrollTo).offset().top
-        }, 10);/*
-        let position = scrollTo.offset().top;
-        console.log($('html, body').scrollTop());
-        $('html, body').animate({scrollTop: position}, 0);*/
-       
+        }, 10);
     })
+    //Cuando la ventana cambie de tamaño, esta función se activara para que exista un
+    // responsive design dentro de la pagina
     $(window).resize(function size_html(){
         let size = $('.main-header').width();
         if(size <= 1800){
@@ -111,6 +100,8 @@ $(document).ready(function (){
             });
         });
     })
+    //A diferencia de la parte anterior, aquí se tiene lo mismo, pero esto se activara cuando
+    // se inicie la pagina, ya que no se sabe con que tamaño empezara la pagina
     if($(window).width() <= 1800){
         let size = $('.main-header').width();
         if( $(window).width() <= 1200){
@@ -128,9 +119,10 @@ $(document).ready(function (){
     }
     
 });
+
+//Gracias a esta función, las imágenes dentro del carrusel serán responsive design.
 jQuery(document).ready(function($) {
     $(".owl-carousel").each(function(index, el) {
-      var containerHeight = $(el).height();
       var containerWidth = $(el).width();
       $(el).find("img").each(function(index, img) {
         var w = $(img).prop('naturalWidth');

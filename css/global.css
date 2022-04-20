@@ -1,55 +1,64 @@
 /* 0 - Iniciadores*/
-img{
+img {
     height: 100%;
 }
+/*******************************************/
+/*******************************************/
 /* 1- Titulos y textos*/
 
-h2{
+h2 {
     font-size: 3.5rem;
 }
-h3{
+
+h3 {
     font-size: 2rem;
 }
-h3,h2{
+
+h3, h2 {
     font-family: 'Adamina';
 }
-.subtitulo{
+
+.subtitulo {
     padding-bottom: 30px;
 }
-.desc-princ{
+
+.desc-princ {
     font-size: 1.3rem;
 }
-.titulo-prin{
+
+.titulo-prin {
     font-size: 4.5rem;
 }
-/*******************************************/
-/*******************************************/
-
 
 /*******************************************/
 /*******************************************/
 /* 2-  Header*/
-.main-header{
+.main-header {
     text-align: center;
     background-image: url("../img/wall.jpg");
 }
-.bg-purpura{
+
+.bg-purpura {
     background-color: #c07fc3;
 }
+
 /*******************************************/
 /*******************************************/
 /* 3= Segmentos */
 
-.futbol{
-    background-color: #86bc8e ;
+.futbol {
+    background-color: #86bc8e;
 }
-.videojuegos{
+
+.videojuegos {
     background-color: #706ed4;
 }
-.esports{
+
+.esports {
     background-color: #d86a96;
 }
-.programacion{
+
+.programacion {
     background-color: #7fa4c3;
 }
 
@@ -74,42 +83,51 @@ h3,h2{
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
 }
+
 .separacion-der {
-	text-align: center;
+    text-align: center;
     position: relative;
 }
-.separacion-der::before{
-  content: "";
-  text-align: center;
-  height: 100%;
-  width: 2px;
-  background-color: rgba(1, 1, 1, 0.4);
-  position: absolute;
+
+.separacion-der::before {
+    content: "";
+    text-align: center;
+    height: 100%;
+    width: 2px;
+    background-color: rgba(1, 1, 1, 0.4);
+    position: absolute;
 }
+
 /*******************************************/
 /*******************************************/
 /* 5- Imagenes*/
-.img-300{
+.img-300 {
     height: 300px;
 }
-.owl-stage{
+
+/*******************************************/
+/*******************************************/
+/* 6 - Carousel OWL*/
+.owl-stage {
     display: block !important;
-  }
-  
-  .owl-item{
+}
+
+.owl-item {
     display: inline-block;
     float: none;
     vertical-align: middle;
-  }
-  
-  .item{
-    text-align: center;
-  }
-.owl-perso-item{
-    
+}
+
+.item {
     text-align: center;
 }
-.caption{
+
+.owl-perso-item {
+
+    text-align: center;
+}
+
+.caption {
     font-size: 1.2rem;
     font-weight: bold;
 }
